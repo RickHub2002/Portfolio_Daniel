@@ -1,0 +1,3 @@
+#headerContent {
+    @apply w-full flex justify-center bg-blue-500;
+}
