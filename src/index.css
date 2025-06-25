@@ -1,17 +1,20 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 :root {
   /*CORES */
-  --cor-50: #FFE6F7; 
-  --cor-100: #FFB0F1;
-  --cor-200: #FF8AEA;
-  --cor-300: #FF54D4;
-  --cor-400: #FF33DA;
-  --cor-500: #FF00D0;
-  --cor-600: #E800D1;
-  --cor-700: #B5008E;
-  --cor-800: #8C0079;
-  --cor-9000: #6B0057;
+  --cor-50: #FFFDE0;   /* Quase branco, com um toque amarelado */
+  --cor-100: #FFF2C0;  /* Amarelo muito claro e suave */
+  --cor-200: #FFE6A0;  /* Amarelo pastel, luminoso */
+  --cor-300: #FFDA80;  /* Um amarelo dourado mais vibrante */
+  --cor-400: #F2CC60;  /* Dourado claro, com bastante brilho */
+  --cor-500: #C9942B;  /* SEU DOURADO BASE #C9942B (ou F2D76A, dependendo do que você quer como 500) */
+  --cor-600: #AD8025;  /* Um marrom dourado mais escuro e rico */
+  --cor-700: #8C661F;  /* Marrom profundo, com subtom dourado */
+  --cor-800: #6B4D18;  /* Marrom bem escuro e denso */
+  --cor-900: #4A3311;  /* Marrom quase preto, com a essência do dourado */
 
   --black-50: #e6e6e6;
   --black-100: #b0b0b0;
