@@ -1,6 +1,3 @@
-import Profile from "./Profile";
-import Skills from "./Skills";
-
 function About_me() {
     return (
         <section id="about-me">

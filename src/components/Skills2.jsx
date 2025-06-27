@@ -24,11 +24,10 @@ function Skills2() {
 }
 
 function CircleOfSkills({ icons }) {
-  const containerSize = 100; 
-  const containerSizeReduced = 300; 
+  const containerSize = 300; 
 
   return (
-    <div className={`grid grid-cols-3 grid-rows-3 gap-0 w-[${containerSizeReduced}px] h-[${containerSizeReduced}px] justify-center items-center lg:w-100 lg:h-100`}>
+    <div className={`grid grid-cols-3 grid-rows-3 gap-0 w-[${containerSize}px] h-[${containerSize}px] justify-center items-center lg:w-100 lg:h-100`}>
       {icons.map((icon, index) => {
         let gridPositionClasses = ""; 
 
@@ -52,7 +51,7 @@ function CircleOfSkills({ icons }) {
               className="w-20 duration-400 ease-in-out hover:scale-120"
               alt={icon.src}
             />
-            <span className="text-white mt-1">{icon.level}</span>
+            <span className="text-[var(--black-500)] dark:text-white mt-1">{icon.level}</span>
           </div>
         );
       })}

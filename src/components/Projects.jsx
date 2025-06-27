@@ -7,14 +7,14 @@ function Projects() {
                 <li className="flex flex-col gap-2 duration-400 ease hover:brightness-80">
                     <a href="https://github.com/mikaelacduarte/logicentro" target="_blank">
                         <img src="../src/assets/Logicentro.jpg" />
-                        <h4 className="text-[var(--cor-400)]">Logicentro</h4>
+                        <h4 className="text-[var(--cor-500)] dark:text-[var(--cor-400)]">Logicentro</h4>
                         <p className="text black dark:text-white">Gerenciador de mercadorias</p>
                     </a>
                 </li>
                 <li className="flex flex-col gap-2 duration-400 ease hover:brightness-80">
                     <a href="https://github.com/DanielRezez/projeto-dizimista" target="_blank">
                         <img src="../src/assets/Portal_dizimista.jpg" />
-                        <h4 className="text-[var(--cor-400)]">Portal do Dizimista</h4>
+                        <h4 className="text-[var(--cor-500)] dark:text-[var(--cor-400)]">Portal do Dizimista</h4>
                         <p className="text black dark:text-white">Gerenciador de dizimistas</p>
                     </a>
                 </li>
