@@ -10,9 +10,8 @@ import Header_icons from "../components/Header_icons";
 
 function Pagina_inicial() {
     return (
-        <section className="bg-white w-full min-h-dvh h-vh dark:bg-[var(--black-500)]">
+        <section className="bg-white w-full min-h-dvh h-vh dark:bg-[var(--black-500)] max-[1000px]:pb-15">
             <Header />
-            <Header_icons />
             <main className="pt-40 px-[13%]">
                 <Introduction />
                 <About_me />
@@ -21,6 +20,7 @@ function Pagina_inicial() {
                 <Contact />
             </main>
             <Footer/>
+            <Header_icons />
         </section>
     )
 }
