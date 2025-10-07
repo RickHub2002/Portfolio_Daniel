@@ -1,0 +1,45 @@
+@import "tailwindcss";
+
+:root {
+  /*CORES */
+  --cor-50: #FFE6F7; 
+  --cor-100: #FFE6F7;
+  --cor-200: #FFE6F7;
+  --cor-300: #FFE6F7;
+  --cor-400: #FFE6F7;
+  --cor-500: #FFE6F7;
+  --cor-600: #FFE6F7;
+  --cor-700: #FFE6F7;
+  --cor-800: #FFE6F7;
+  --cor-9000: #FFE6F7;
+
+  --black-50: #e6e6e6;
+  --black-100: #b0b0b0;
+  --black-200: #8a8a8a;
+  --black-300: #545454;
+  --black-400: #333333;
+  --black-500: #1E1E1E;
+  --black-600: #000000;
+
+
+  /*TEXTOS */
+  --xl-text-size: 3.833rem;
+  --xl-2-text-size: 3.056rem;
+  --lg-text-size: 2.444rem;
+  --lg-2-text-size: 1.944rem;
+  --md-text-size: 1.556rem;
+  --md-2-text-size: 1.278rem;
+  --sm-text-size: 1.000rem;
+  --sm-2-text-size: 0.778rem;
+  --sm-3-text-size: 0.667rem;
+
+}
+
+* {
+  box-sizing: border-box;
+  padding-right: 5px
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
