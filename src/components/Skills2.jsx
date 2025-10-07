@@ -1,18 +1,28 @@
 import React from 'react';
 
+// importa os ícones
+import reactIcon from '../assets/icones/react.svg';
+import vueIcon from '../assets/icones/vuejs.svg';
+import tailwindIcon from '../assets/icones/tailwind.svg';
+import jsIcon from '../assets/icones/javascript.svg';
+import phpIcon from '../assets/icones/php.svg';
+import djangoIcon from '../assets/icones/django.svg';
+import pythonIcon from '../assets/icones/python.svg';
+import javaIcon from '../assets/icones/java.svg';
+
 function Skills2() {
   const icons1 = [
-    { src: "react.svg", level: "iniciante" },
-    { src: "vuejs.svg", level: "iniciante" },
-    { src: "tailwind.svg", level: "intermediário" },
-    { src: "javascript.svg", level: "intermediário" }
+    { src: reactIcon, level: "iniciante" },
+    { src: vueIcon, level: "iniciante" },
+    { src: tailwindIcon, level: "intermediário" },
+    { src: jsIcon, level: "intermediário" }
   ];
 
   const icons2 = [
-    { src: "php.svg", level: "intermediário" },
-    { src: "django.svg", level: "iniciante" },
-    { src: "python.svg", level: "intermediário" },
-    { src: "java.svg", level: "iniciante" }
+    { src: phpIcon, level: "intermediário" },
+    { src: djangoIcon, level: "iniciante" },
+    { src: pythonIcon, level: "intermediário" },
+    { src: javaIcon, level: "iniciante" }
   ];
 
   return (
@@ -31,23 +41,15 @@ function CircleOfSkills({ icons }) {
       {icons.map((icon, index) => {
         let gridPositionClasses = ""; 
 
-        if (index === 0) {
-          gridPositionClasses = "col-start-2 row-start-1";
-        } else if (index === 1) {
-          gridPositionClasses = "col-start-3 row-start-2";
-        } else if (index === 2) {
-          gridPositionClasses = "col-start-2 row-start-3";
-        } else if (index === 3) {
-          gridPositionClasses = "col-start-1 row-start-2";
-        }
+        if (index === 0) gridPositionClasses = "col-start-2 row-start-1";
+        else if (index === 1) gridPositionClasses = "col-start-3 row-start-2";
+        else if (index === 2) gridPositionClasses = "col-start-2 row-start-3";
+        else if (index === 3) gridPositionClasses = "col-start-1 row-start-2";
 
         return (
-          <div
-            key={index}
-            className={`flex flex-col items-center text-sm gap-2 ${gridPositionClasses} p-2`}
-          >
+          <div key={index} className={`flex flex-col items-center text-sm gap-2 ${gridPositionClasses} p-2`}>
             <img
-              src={`../src/assets/icones/${icon.src}`}
+              src={icon.src}
               className="w-20 duration-400 ease-in-out hover:scale-120"
               alt={icon.src}
             />
