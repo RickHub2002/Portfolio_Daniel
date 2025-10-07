@@ -2,7 +2,7 @@
   "name": "portfolio_daniel",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://rickhub2002.github.io/Portfolio_Daniel",
+  "homepage": "https://rickhub2002.github.io/Portfolio_Daniel/",
   "type": "module",
   "scripts": {
     "dev": "vite",
